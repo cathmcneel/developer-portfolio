@@ -8,7 +8,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,
     monospace;
 }
 
@@ -20,10 +20,10 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #F3A847;
+  --secondary: #4169E1;
   --tertiary: #B12704;
-  --light: #fafafa;
-  --dark: #000000;
+  --light: #2E8B57;
+  --dark: #FFF5EE;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -50,7 +50,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -60,14 +60,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+
 }
 
 h1 {
   font-size: 2.25rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
 }
 
 h2 {
