@@ -135,6 +135,7 @@ const PhotoList = ({ category }) => {
         <Modal onClose={toggleModal} currentPhoto={currentPhoto} />
       )}
       <div className="flex-row">
+        
         {currentPhotos.map((image, i) => (
           <img
             src={require(`../../assets/small/${category}/${i}.jpg`).default}

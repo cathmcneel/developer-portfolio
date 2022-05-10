@@ -19,8 +19,8 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #4169E1;
+  --primary: #6495ED;
+  --secondary: #2E8B57;
   --tertiary: #B12704;
   --light: #2E8B57;
   --dark: #FFF5EE;
@@ -151,10 +151,11 @@ form {
 
 input {
   font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid var(--dark);
+  padding: 0.5rem;
+  border: 2px solid var(--primary);
   outline: none;
   border-radius: 3px;
+  margin: 3px;
   transition: box-shadow 0.2s;
 }
 
@@ -178,8 +179,13 @@ nav  li {
 textarea {
 	width: 600px;
 	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 2px solid var(--primary);
+  outline: none;
+  border-radius: 3px;
+  margin: 3px;
+  transition: box-shadow 0.2s;
 }
 
 .container {
