@@ -316,3 +316,13 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+/* portfolio page styling starts */
+
+.project-card {
+  border: 1px solid black;
+}
+
+
+/* portfolio page styling Ends */
+

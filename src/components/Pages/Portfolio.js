@@ -31,13 +31,15 @@ function Portfolio() {
  
         <div className="Page"> 
           <h1>Projects</h1>
-          <div>
+          <div className="project-card">
 
             {projects.map((project) => (
               <SingleProject 
-                name={project.name}
+                 name={project.name} 
                 description={project.description}
                 img={project.img}
+                github={project.github}
+                applicationlink={project.applicationlink}
                 />
             ))}
           </div>

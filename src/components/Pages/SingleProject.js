@@ -10,7 +10,7 @@ const SingleProject = ( {name, description, img, github, applicationlink} ) => {
             <h1> {name} </h1>
             <div id='singleProjectContainer'>
                 <div id='singleProjectImg'>
-                    <img src={`/images/${img}.png`} alt={`${name} application screenshot`}></img>
+                    <img src={`/assets/${img}.png`} alt={`${name} application screenshot`}></img>
                 </div>
                 <div id='singleProjectInfo'>
                     {/* reads text from 'info' item which contains HTML. This is translated into HTML by the dangerouslySetInnerHTML attribute */}
