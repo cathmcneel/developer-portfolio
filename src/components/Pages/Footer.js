@@ -2,8 +2,10 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer>
-            Design by: <span id='footerName'>Catherine McNeel</span>
+        <footer class="footer">
+            <h1 id="footer-text">
+            Website by: <span id='footerName'>Catherine McNeel</span>
+            </h1>
         </footer>
     )
 }

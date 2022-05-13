@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 2px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -8,8 +8,7 @@ body {
 }
 
 code {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,
-    monospace;
+  font-family: 'Playfair Display', serif;
 }
 
 
@@ -19,11 +18,11 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #6495ED;
-  --secondary: #2E8B57;
+  --primary: #F0FFFF;
+  --secondary: #2F4F4F;
   --tertiary: #B12704;
   --light: #2E8B57;
-  --dark: #FFF5EE;
+  --dark: #b3ccff;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -152,7 +151,7 @@ form {
 input {
   font-size: 1rem;
   padding: 0.5rem;
-  border: 2px solid var(--primary);
+  border: 2px solid var(--secondary);
   outline: none;
   border-radius: 3px;
   margin: 3px;
@@ -181,7 +180,7 @@ textarea {
 	height: 120px;
   font-size: 1rem;
   padding: 0.5rem;
-  border: 2px solid var(--primary);
+  border: 2px solid var(--secondary);
   outline: none;
   border-radius: 3px;
   margin: 3px;
@@ -319,10 +318,50 @@ a {
 
 /* portfolio page styling starts */
 
+.projects {
+ margin: 5px;
+ padding: 5px;
+
+
+}
+
 .project-card {
-  border: 1px solid black;
+  font-family: 'Playfair Display', serif;
+  border: 3px solid #ffccff;
+  border-radius: 4px;
+  background-color: #e6eeff;
+  box-shadow: #111111;
+}
+#project-title{
+  font-family: 'Playfair Display', serif;
+  font-size: x-large;
+
+}
+#singleProjectText {
+  font-size: large;
+}
+
+.project-link:link {
+  font-size: small;
+  text-decoration: none;
 }
 
 
+
+
 /* portfolio page styling Ends */
+
+
+
+/* Resume page styling Begins */
+.resume-text {
+  font-size: large;
+  background-color: white;
+  border: #ffccff solid 2px; 
+  border-radius: 100px;
+  margin: 3px;
+  
+}
+
+/* Resume page styling Ends */
 
