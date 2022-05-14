@@ -9,7 +9,7 @@ function Nav({ currentPage, handlePageChange }) {
       <h2>
         {/* <a data-testid="link" href="/">Catherine McNeel</a> */}
       </h2>
-      <div>
+      <div className="nav-text" >
         <ul className="flex-row">
           <li className="About">
           <span href='#About' onClick={() => handlePageChange('About')}

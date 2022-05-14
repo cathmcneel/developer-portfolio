@@ -24,7 +24,8 @@ function Portfolio() {
           img: "restaurantrater",
           github: "https://github.com/cathmcneel/restaurant-rater",
           applicationlink: "https://hidden-anchorage-87241.herokuapp.com/"
-        }
+        },
+     
       ])
 
   return (

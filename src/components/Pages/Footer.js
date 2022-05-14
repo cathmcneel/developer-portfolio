@@ -5,7 +5,10 @@ const Footer = () => {
         <footer class="footer">
             <h1 id="footer-text">
             Website by: <span id='footerName'>Catherine McNeel</span>
+           <br></br>
+            <a href="#home">Back to Homepage</a>
             </h1>
+    
         </footer>
     )
 }

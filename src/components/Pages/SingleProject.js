@@ -12,8 +12,8 @@ console.log(img);
             <div class="row">
             <h1 class="col-sm card-title" id="project-title"> {name} </h1>
             <div id='singleProjectContainer'>
-                <div id='singleProjectImg'>
-                    <img src={`/images/${img}.jpg`} alt={`${name} application screenshot`}></img>
+                <div >
+                    <img id="singleProjectImg" src={`/images/${img}.jpg`} alt={`${name} application screenshot`}></img>
                 </div>
                 <div id='singleProjectInfo'>
                     {/* reads text from 'info' item which contains HTML. This is translated into HTML by the dangerouslySetInnerHTML attribute */}

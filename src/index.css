@@ -197,6 +197,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+ 
 }
 
 .space-between {
@@ -354,14 +355,59 @@ a {
 
 
 /* Resume page styling Begins */
+
+
 .resume-text {
   font-size: large;
   background-color: white;
-  border: #ffccff solid 2px; 
-  border-radius: 100px;
   margin: 3px;
-  
+  width: 50%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 350px;
+  margin-right: 350px;
+  border: solid 2px var(--dark);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+#singleimageresume {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid var(--dark);
+  border-radius: 15px;
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
 /* Resume page styling Ends */
 
+.nav-text {
+  color: black;
+
+}
+
+
+#contactItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+
+/* Footer page styling Begins */
+
+.footer {
+
+  background-color: var(--dark);
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+
+  bottom: 0;
+  width: 100%;
+}
+#footer-text {
+  font-size: large;
+}

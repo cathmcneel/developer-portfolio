@@ -64,13 +64,14 @@ const Resume = () => {
         <div>
        
 
-        <div>
+        <div className="resume-area">
                  <section id='contactItems'>
                     {/* Render each contact item */}
                     {contactInfo.map((item) => 
-                        (<a key={item.id} href={item.href} target={item.target}><img src={item.imgSrc} alt={item.alt} className='contact-item' data-label={item.data} onMouseOver={() => showHoverText(item)} onMouseLeave={() => removeHoverText()}></img></a>)
+                        (<a key={item.id} href={item.href} target={item.target}><img id="singleimageresume" src={item.imgSrc} alt={item.alt} className='contact-item' data-label={item.data} onMouseOver={() => showHoverText(item)} onMouseLeave={() => removeHoverText()}></img></a>)
                     )}
                 </section>
+                <br></br>
                 <h1 class="resume-text"> Like what you see? Check out my LinkedIn, Github, and Resume below, or go ahead and shoot me an email by clicking on the icon below. Looking forward to hearing from you!</h1>
         </div>
         </div>

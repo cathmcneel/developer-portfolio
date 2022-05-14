@@ -16,7 +16,7 @@ const Header = () => {
                 <NavLinks />
             </div>
         </nav> */}
-        <h1>Header </h1>
+        <h1> </h1>
     </header>
     )
 }
